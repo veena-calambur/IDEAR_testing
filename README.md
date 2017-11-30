@@ -16,4 +16,6 @@ This code essentially mimics how IDEAR should have worked, particularly around t
   - data: the data set name 
 - You should then run the code to define target_type which defines the data type of your target variable, and data_cln which filters out any columns you specified in cols_to_exclude 
 - You are then good to go to run the idear sample with the following command: 
-### run_sample_idear(data_cln, target_type) ###
+  ##### run_sample_idear(data_cln, target_type) #####
+  
+- You will find that some of the summary outputs will print to the console, but majority of these relationships will be visualized in the plot window, and when the code is done running you can click through all of the plots generated to better understand the variables in the data set, and how they relate to the target and each other 
